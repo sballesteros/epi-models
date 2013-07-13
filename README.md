@@ -1,7 +1,7 @@
 epi-models
 ==========
 
-Classical epidemiological models for busy men.
+Classical epidemiological models for busy men and women.
 
 > Don’t know what I want
 > but I know how to get it.
