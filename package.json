@@ -1,0 +1,28 @@
+{
+  "name": "epi",
+  "version": "0.0.0",
+  "description": "Classical epidemiological models for seasonal acute infectious diseases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sballesteros/epi.git"
+  },
+  "keywords": [
+    "epidemiology",
+    "compartmental",
+    "models"
+  ],
+  "author": "Sebastien Ballesteros",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/sballesteros/epi/issues"
+  },
+  "dependencies": {
+    "clone": "~0.1.9",
+    "underscore": "~1.5.1", 
+    "plom-validate": "*"
+  }
+}
