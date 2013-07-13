@@ -21,14 +21,14 @@ Usage
 =====
 
     var epi = require('epi-models')
-        util = require('util');
+      , util = require('util');
     
-    var models = createModelOneSpecies();
+    var models = epi.createModelOneSpecies();
     
     console.log(Object.keys(models)); //all the model available
     console.log(util.inspect(models,  { depth: null }));
     
-    models = createModelTwoSpecies();
+    models = epi.createModelTwoSpecies();
     console.log(Object.keys(models));
     console.log(util.inspect(models,  { depth: null }));
 
