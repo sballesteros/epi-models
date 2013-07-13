@@ -17,3 +17,20 @@ with npm do:
     npm install epi-models
 
 
+Usage
+=====
+
+    var epi = require('epi-models')
+        util = require('util');
+    
+    var models = createModelOneSpecies();
+    
+    console.log(Object.keys(models)); //all the model available
+    console.log(util.inspect(models,  { depth: null }));
+    
+    models = createModelTwoSpecies();
+    console.log(Object.keys(models));
+    console.log(util.inspect(models,  { depth: null }));
+
+
+

@@ -1,4 +1,5 @@
-var createModel2s = require('./lib/2species');
+var createModelOneSpecies = require('./lib/1species')
+  , createModelTwoSpecies = require('./lib/2species');
 
-var models = createModel2s();
-console.log(require('util').inspect(models,  { depth: null }));
+exports.createModelOneSpecies = createModelOneSpecies;
+exports.createModelTwoSpecies = createModelTwoSpecies;

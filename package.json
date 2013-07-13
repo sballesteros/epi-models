@@ -1,5 +1,5 @@
 {
-  "name": "epi",
+  "name": "epi-models",
   "version": "0.0.0",
   "description": "Classical epidemiological models for seasonal acute infectious diseases",
   "main": "index.js",
